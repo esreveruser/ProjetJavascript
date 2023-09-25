@@ -1,14 +1,22 @@
+html{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;    
+}
 
 button{
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.3);
     position: absolute;
     top: 25%;
-    right: 0;
+    right: 2%;
     border: 2px solid transparent;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     
 }
+
