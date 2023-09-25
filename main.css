@@ -1,0 +1,14 @@
+
+button{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 25%;
+    right: 0;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 18px;
+    
+}
