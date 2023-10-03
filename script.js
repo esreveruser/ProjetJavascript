@@ -1,16 +1,38 @@
 "use strict";
 
-class task{
+
+class Listes{
+    constructor(listes){
+        this.listes = [];
+    }
+    add_listes(liste){
+        this.listes.push(liste);
+        const L = new Listes(listes)
+    }
+}
+
+class Liste{
+    constructor(name, tasks){
+        this.name = name;
+        this.tasks = [];
+    }
+    add_liste(name, task){
+        tasks = [];
+        this.tasks.push(task);
+        const l = new Liste(name, tasks);
+    }
+}
+
+class Task{
     constructor(name, date, status){
         this.name = name;
         this.date = date;
         this.status = status; 
     }
-    affiche(){
-        alert(`${this.name}, ${this.date}, ${this.status}`);
+    add_task(name, date){
+        const t = new Task(name, date, false);
     }
 }
-
 
 formList.onsubmit = () =>{
     const li = document.createElement("li");
@@ -22,14 +44,6 @@ formList.onsubmit = () =>{
     li.appendChild(delet);
     liste.appendChild(li);
     champList.value = "";
-    return false;
-}
-
-formTask.onsubmit = () =>{
-    const li = document.createElement("li");
-    li.textContent = champTask.value;
-    task.appendChild(li);
-    champTask.value = "";
     return false;
 }
 
