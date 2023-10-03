@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-do List</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <form id="formList">
+            <input autocomplete=off required id="champList" type="text" placeholder="Entrer votre nom" />
+            <input type="submit" id="addList" value="+">
+        </form>
+        <form id="formTask">
+            <input autocomplete=off required id="champTask"type="text" placeholder="Ajouter une tâche..." />
+            <input type="submit" id="addTask" value="+">
+        </form>
+        <ol id="liste">
+        </ol>
+        <ol id="task">
+        </ol>
+    </body>
+</html>
