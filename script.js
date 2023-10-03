@@ -1,5 +1,17 @@
 "use strict";
 
+class task{
+    constructor(name, date, status){
+        this.name = name;
+        this.date = date;
+        this.status = status; 
+    }
+    affiche(){
+        alert(`${this.name}, ${this.date}, ${this.status}`);
+    }
+}
+
+
 formList.onsubmit = () =>{
     const li = document.createElement("li");
     const delet = document.createElement("span");
