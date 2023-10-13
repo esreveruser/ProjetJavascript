@@ -20,7 +20,7 @@ body {
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 80%;
+    width: 90%;
   }
 
     /* Style des boutons */
@@ -43,15 +43,21 @@ body {
       .list{
         display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
         flex-direction: column;
+        border: 1rem outset grey;
+        background-color: #fff;
     }
-    
- 
-      .container-div-list {
-        display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
-        align-items: center; /* Alignez les éléments verticalement au centre */
+      
+      .list .container-div-list {
+        display: block;
+        align-items: center;
       }
-      
-      
+
+      .list .task {
+        display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+        align-items: left; /* Alignez les éléments verticalement au centre */
+      }
+
+
       ul {
         list-style: none; /* Supprimer les puces des listes */
         display: flex;
@@ -63,3 +69,7 @@ body {
         margin-bottom: 50px; /* Espace entre les lignes */
         width: calc(33.33% - 10px); /* Largeur de 33,33% - espace entre les éléments */
       }
+.task ul {
+    width: 20px;
+    height: 15px;
+}
