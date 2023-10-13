@@ -1,3 +1,65 @@
 html {
     background-color: rgb(100, 175, 237);
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    text-align: center;
+
+}
+
+  /* Style des inputs */
+  input {
+    padding: 8px;
+    font-size: 14px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+  }
+
+    /* Style des boutons */
+    button, input[type="submit"] {
+        padding: 8px 8px;
+        font-size: 14px;
+        margin: 5px 0;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .form-group {
+        display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+        align-items: center; /* Alignez les éléments verticalement au centre */
+      }
+
+      .list{
+        display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+        flex-direction: column;
+    }
+    
+ 
+      .container-div-list {
+        display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+        align-items: center; /* Alignez les éléments verticalement au centre */
+      }
+      
+      
+      ul {
+        list-style: none; /* Supprimer les puces des listes */
+        display: flex;
+        flex-wrap: wrap; /* Permet le retour à la ligne */
+        justify-content: space-evenly; /* Ajuste l'alignement horizontal */
+      }
+    li {
+        margin-right: 50px; /* Espace entre les éléments */
+        margin-bottom: 50px; /* Espace entre les lignes */
+        width: calc(33.33% - 10px); /* Largeur de 33,33% - espace entre les éléments */
+      }
+.list{
+
+}
