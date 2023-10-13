@@ -10,6 +10,9 @@ body {
 
 }
 
+.listes {
+    text-align: center;}
+
   /* Style des inputs */
   input {
     padding: 8px;
@@ -60,6 +63,3 @@ body {
         margin-bottom: 50px; /* Espace entre les lignes */
         width: calc(33.33% - 10px); /* Largeur de 33,33% - espace entre les éléments */
       }
-.list{
-
-}
