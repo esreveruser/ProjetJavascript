@@ -48,6 +48,6 @@
     function deleteList(event) {
         const itemToDel = event.target;
         if (itemToDel.classList[0] === "btn-del-list") {
-            itemToDel.parentElement.remove();
+            itemToDel.parentElement.parentElement.remove();
         }
     }
